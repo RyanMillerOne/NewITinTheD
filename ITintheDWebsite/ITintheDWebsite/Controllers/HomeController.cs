@@ -116,12 +116,13 @@ namespace ITintheDWebsite.Controllers
             string body = a.FirstName + " " + a.LastName + " " + a.Email + Environment.NewLine +
                 "Heard about IT in the D from: " + a.HowYouHeard + Environment.NewLine + 
                 "Is interested in the " + a.Role + " role." + Environment.NewLine +
-                "Answer1: " + a.Question1 + Environment.NewLine + "Answer2: " + a.Question2 + 
-                Environment.NewLine + "Answer3: " + a.Question3;
+                "Why be part of IT in the D? " + a.Question1 + Environment.NewLine + 
+                "What interest you most/least in a job? " + a.Question2 + Environment.NewLine + 
+                "Where do you see yourself in three years? " + a.Question3;
 
             if (body != null) return body;
 
-            return "test body message, the body was null";
+            return "Error constructing the body message";
         }
     }
 }

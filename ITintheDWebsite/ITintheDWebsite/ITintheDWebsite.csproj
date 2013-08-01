@@ -594,6 +594,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
+    <Content Include="Images\Alumni\it-in-the-d-2.jpg" />
     <Content Include="Images\Mentors\dhuston.jpg" />
     <Content Include="Images\Mentors\FriesenBrian.jpg" />
     <Content Include="Images\Mentors\WalkerSonya.png" />

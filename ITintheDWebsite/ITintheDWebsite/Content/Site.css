@@ -9,7 +9,7 @@ html {
 
 body {
     background-color: #fff;
-    border-top: solid 10px #000;
+    /*border-top: solid 10px #000;*/ 
     color: #333;
     font-size: .85em;
     font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
@@ -37,6 +37,11 @@ a {
 header, footer, hgroup,
 nav, section {
     display: block;
+}
+
+header {
+    height: 45px;
+    background-image: linear-gradient(to bottom, #333333, black);
 }
 
 mark {
@@ -967,9 +972,10 @@ tr.pager td {
 /*-----------marv----------*/
 
  body {
-    background: #e8e8e8;
+    background: #101010;
     font: 300 12px Arial, Verdana, sans-serif;
 }
+
 .wrapper {
     width: 650px;
     margin: 0 auto;
@@ -1051,6 +1057,10 @@ img.mentor:hover {
     height: 145px;
 }
 
+.sponsorDiv {
+    padding: 5px;
+}
+
 .sponsorDiv img {
     height: 50px;
     width: auto;
@@ -1061,6 +1071,16 @@ img.mentor:hover {
 .sponsorDiv a {
     padding: 0;
     margin: 0;
+}
+
+.alumni {
+    background: black;
+}
+
+.alumni img {
+    width: 275px;
+    height: 145px;
+    margin: 10px;
 }
 
 /*-----------itwhat page-----------*/
