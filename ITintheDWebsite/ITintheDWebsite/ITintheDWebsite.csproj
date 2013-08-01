@@ -195,6 +195,9 @@
       <DependentUpon>DBEntities.mdf</DependentUpon>
     </Content>
     <Content Include="Content\Images\10Weeks.png" />
+    <Content Include="Content\Images\Backgrounds\live-home.png" />
+    <Content Include="Content\Images\Backgrounds\play-home.png" />
+    <Content Include="Content\Images\Backgrounds\work-home.png" />
     <Content Include="Content\Images\GainKnowledge.jpg" />
     <Content Include="Content\Images\congrats-4.jpg" />
     <Content Include="Content\Images\ITD-StudentsComputerClass-9.jpg" />
