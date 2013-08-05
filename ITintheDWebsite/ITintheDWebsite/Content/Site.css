@@ -872,9 +872,11 @@ tr.pager td {
 /*------------------what you gain page---------------------*/
 
 #gainBackground {
-    background-image: url(Images/GainKnowledge.jpg);
+    background-image: url(Images/handsbrains.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 500px;
+    background-position:center;
+    background-color:black;
     width: auto;
     height: 500px;
 }
@@ -922,9 +924,11 @@ tr.pager td {
     height: 500px;
 }
 .whoBackground {
-    background-image: url(Images/Compuware.jpg);
+    background-image: url(Images/campusMartius.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 800px;
+    background-position:center;
+    background-color:black;
     width: auto;
     height: 500px;
     overflow: hidden;
@@ -981,7 +985,6 @@ tr.pager td {
     background-image: url(Images/opportunity_detroit.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 100px;
     margin: 0;
 }
 

@@ -198,8 +198,10 @@
     <Content Include="Content\Images\Backgrounds\live-home.png" />
     <Content Include="Content\Images\Backgrounds\play-home.png" />
     <Content Include="Content\Images\Backgrounds\work-home.png" />
+    <Content Include="Content\Images\campusMartius.png" />
     <Content Include="Content\Images\GainKnowledge.jpg" />
     <Content Include="Content\Images\congrats-4.jpg" />
+    <Content Include="Content\Images\handsbrains.png" />
     <Content Include="Content\Images\ITD-StudentsComputerClass-9.jpg" />
     <Content Include="Content\Images\Backgrounds\landing_background.jpg" />
     <Content Include="Content\Images\Backgrounds\mentor-mentee4.jpg" />
@@ -215,7 +217,7 @@
     <Content Include="Content\Images\fathead.jpg" />
     <Content Include="Content\Images\GalaxEsolutions.jpg" />
     <Content Include="Content\Images\GoogleMap.png" />
-    <Content Include="Content\Images\joe_fist.jpg" />
+    <Content Include="Views\Account\joe_fist.jpg" />
     <Content Include="Content\Images\LearnMoreButton.png" />
     <Content Include="Content\Images\live.png" />
     <Content Include="Content\Images\Marketing Associates.jpg" />
