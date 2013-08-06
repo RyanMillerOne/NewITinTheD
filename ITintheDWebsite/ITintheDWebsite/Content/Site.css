@@ -914,6 +914,7 @@ tr.pager td {
 }
 #blackBground {
     background-color: black;
+    padding: 15px;
 }
 
 #whatBackground {
