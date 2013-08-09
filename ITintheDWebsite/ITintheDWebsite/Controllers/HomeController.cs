@@ -12,7 +12,7 @@ namespace ITintheDWebsite.Controllers
     public class HomeController : Controller
     {
         private DBEntities db = new DBEntities();
-        private List<string> mailList = new List<string>() { "chancecyphers@gmail.com", "sraymond@galaxesolutions.com" };
+        private List<string> mailList = new List<string>() { "chancecyphers@gmail.com"};//Everyone to be emailed applications from "Get Involved" page
 
         public ActionResult Index()
         {
