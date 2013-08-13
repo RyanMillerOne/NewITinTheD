@@ -3,6 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITintheDWebsite", "ITintheDWebsite\ITintheDWebsite.csproj", "{C66A4015-C16D-4A61-9EBF-194BBA4F1D1B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{F5B713DA-5CA7-4359-AC3F-800C45FC2974}"
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{E6B6AF05-31CE-452B-B4D3-5863357A97C8}"
 	ProjectSection(SolutionItems) = preProject
 		.nuget\NuGet.Config = .nuget\NuGet.Config

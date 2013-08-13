@@ -53,17 +53,17 @@ namespace ITintheDWebsite.Migrations
             new Mentor
             {
                 Name = "Dashaun Houston",
-                Info = "Project Manager Mentor"
+                Info = "Years Experience: <br /> Project Manager Mentor <br /> Comment"
             },
             new Mentor
             {
                 Name = "Brian Friesen",
-                Info = "Technical Mentor"
+                Info = "Years Experience: <br /> Technical Mentor <br /> Comment"
             },
             new Mentor
             {
                 Name = "Sonya Walker",
-                Info = "Business Analyst Mentor"
+                Info = "Years Experience: <br /> Business Analyst Mentor<br /> Comment"
             });
 
             context.Apps.AddOrUpdate(a => a.Email,

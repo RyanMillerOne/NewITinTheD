@@ -9,20 +9,23 @@
     <h2>@ViewBag.Message</h2>
 </hgroup>*@
 <div class="whoBackground">
+    <p class="backgroundWordBox">IT in the D Who</p>
     <div class="jumplinkSponsor">
-        <a href="#Sponsors">Sponsors</a>
+        <a href="#Sponsors" style="color:white">Sponsors</a>
     </div>
+
     @*
     <div class="jumplinkAcademic">
         <a href="#Academics">Academic
             <br />
             Institutions</a>
     </div>*@
+
     <div class="jumplinkMentor">
-        <a href="#Mentors">Mentors</a>
+        <a href="#Mentors" style="color:white">Mentors</a>
     </div>
     <div class="jumplinkAlumni">
-        <a href="#Alumni">Alumni</a>
+        <a href="#Alumni" style="color:white">Alumni</a>
     </div>
 
 </div>
@@ -47,35 +50,58 @@
             <img src="~/Images/Sponsors/TitleSource.jpg" /></a>
     </div>
 
+
+<A name="Mentors"></A>
+<h2 style="color:White">Mentors</h2>
+
     @*<a id="Academics"></a>
     <h2 style="color: White">Participating Academic Institutions</h2>
 
     <img src="~/Content/Images/SpaceSaver.png" border="2" />*@
 
-    <h2 style="color: White">Mentors</h2>
-    <a id="Mentors"></a>
+
+<a id="Mentors"></a>
 
     <img src="~/Images/Mentors/dhuston.jpg" class="mentor" data-mentor-name="Dashaun Houston" />
     <img src="~/Images/Mentors/FriesenBrian.jpg" class="mentor" data-mentor-name="Brian Friesen" />
     <img src="~/Images/Mentors/WalkerSonya.png" class="mentor" data-mentor-name="Sonya Walker" />
+
+
+<A NAME="Alumni"></A>
+<h2 style="color:White">Alumni</h2>
+
+<A HREF="~/Content/Images/Summer 2013 Session.jpg">
+<IMG HEIGHT=200 WIDTH=300 SRC="~/Content/Images/Summer 2013 Session.jpg"></A><A HREF="~/Content/Images/Fall 2012 Session.jpg">
+<IMG HEIGHT=200 WIDTH=300 SRC="~/Content/Images/Fall 2012 Session.jpg"></A><A HREF="~/Images/Alumni/it-in-the-d-2.jpg">
+<IMG HEIGHT=200 WIDTH=300 SRC="~/Images/Alumni/it-in-the-d-2.jpg"></A>
+<p class="alumniCaptionSummer2013">Summer 2013</p><p class="alumniCaptionFall2012">Fall 2012</p>
+<p class="alumniCaptionFirst">First Iteration</p>
+
+
 </div>
-<div class="alumni">
+@*<div class="alumni">
     <a id="Alumni"></a>
     <h2 style="color: White">Alumni</h2>
     <img src="~/Images/Alumni/it-in-the-d-2.jpg" class="alumni"/>
 
-@*    <img src="~/Content/Images/SpaceSaver.png" border="2" />*@
-</div>
+
+
+</div>*@
+
+  
+    
+
 
 <div class="contactInfo">
     <div class="contactInfoInner">
         <span class="fontawesome-remove-sign"></span>
         <img id="mentorPic" />
         <h1 id="mentorName" style="color: white;">Mentor Name</h1>
-        <p id="mentorInfo">Mentor info goes here</p>
+        <p id="mentorInfo">Loading Mentor Info...</p>
         <div class="clear"></div>
     </div>
 </div>
 
 <script src="~/Scripts/jquery-1.7.1.min.js"></script>
 <script src="~/Scripts/mentorModal.js"></script>
+

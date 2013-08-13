@@ -100,7 +100,7 @@ h5, h6 {
 }
 
 #body {
-    background-color: #efeeef;
+    background-color: #333333;
     clear: both;
     padding-bottom: 35px;
 }
@@ -763,6 +763,10 @@ tr.pager td {
     margin: 40px;
 }
 
+.infoBox li {
+    margin: 5px;
+}
+
 .backgroundWordBox {
     position: relative;
     color: white;
@@ -790,6 +794,7 @@ tr.pager td {
 .infoBox2 {
     background-color: black;
     color: white;
+    overflow: hidden;
 }
 
 .infoBox2Header {
@@ -803,6 +808,20 @@ tr.pager td {
     width: 60%;
     word-wrap: normal;
 }
+.infoBox3Content {
+    float: right;
+    width: 60%;
+    word-wrap: normal;
+    font-size: 17px;
+}
+.infoBox3Header {
+    font-size: 50px;
+    float: left;
+    width: 20%;
+    height: 100px;
+    color: white;
+    padding: 20px;
+}
 
 
 /*------------landing page---------------*/
@@ -811,7 +830,7 @@ tr.pager td {
     background-image: url(Images/Backgrounds/landing_background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 100px;
+    padding: 250px;
     margin: 0;
 }
 
@@ -821,6 +840,8 @@ tr.pager td {
     background-position: right;
     background-repeat: no-repeat;
     background-color: black;
+    font-size: 13px;
+    font-weight:bold;
     color: white;
 }
 
@@ -833,6 +854,8 @@ tr.pager td {
 
 .whatIsContent {
     float: right;
+    font-weight: bold;
+    font-size: 17px;
     width: 60%;
     word-wrap: normal;
 }
@@ -842,7 +865,8 @@ tr.pager td {
 /*-------------------what you learn classes n id's--------------------*/
 
 #learningBackground {
-    background-image: url(Images/Backgrounds/mentor-mentee4.jpg);
+    background-image: url(Images/experiential_learning_photo.jpg);
+    /*background-image: url(Images/Backgrounds/mentor-mentee4.jpg);*/
     background-repeat: no-repeat;
     background-size: cover;
     width: auto;
@@ -852,25 +876,64 @@ tr.pager td {
 /*------------------what you gain page---------------------*/
 
 #gainBackground {
-    background-image: url(Images/downtown_detroit.jpg);
+    background-image: url(Images/handsbrains.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 500px;
+    background-position:center;
+    background-color:black;
     width: auto;
     height: 500px;
 }
 
 /*Rachel's Additions */
+.alumniCaptionSummer2013 {
+    color:white;
+    font-size: 16px;
+    position: relative;
+    top:13px;
+    right: 375px;
+    background: none;
+    display: inline-block;
+
+}
+.alumniCaptionFall2012 {
+    color:white;
+    font-size: 16px;
+    position: relative;
+    top:13px;
+    right: 325px;
+    background: none;
+    display: inline-block;
+
+}
+.alumniCaptionFirst {
+    color:white;
+    font-size: 16px;
+    position: relative;
+    top:13px;
+    right: 275px;
+    background: none;
+    display: inline-block;
+
+}
+#blackBground {
+    background-color: black;
+    padding: 15px;
+}
+
 #whatBackground {
-    background-image: url(Images/ChaseBuildingB.jpg);
+    background-image: url(Images/ITD-StudentsComputerClass-9.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: auto;
     height: 500px;
 }
 .whoBackground {
-    background-image: url(Images/Compuware.jpg);
+    background-image: url(Images/campusMartius.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 800px;
+    background-position:center;
+    background-color:black;
     width: auto;
     height: 500px;
     overflow: hidden;
@@ -881,8 +944,8 @@ tr.pager td {
     font-weight: bold;
     font-size: 30px;
     position: relative;
-    top: 100px;
-    left: 100px;
+    top: 25px;
+    left: 400px;
 }
 .jumplinkAcademic {
     background-color: none;
@@ -892,16 +955,17 @@ tr.pager td {
     position: relative;
     top: 200px;
     left: 100px;
-   
 }
+   
+
 .jumplinkMentor {
     background-color: none;
     color: White;
     font-weight: bold;
     font-size: 30px;
     position: relative;
-    top: 0px;
-    left: 800px;
+    top: 25px;
+    left: 100px;
   
 }
 .jumplinkAlumni {
@@ -910,8 +974,15 @@ tr.pager td {
     font-weight: bold;
     font-size: 30px;
     position: relative;
-    top: 125px;
-    left: 800px;
+    top: 0px;
+    left: 775px;
+}
+.alumniCaption {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    top: 0px;
 }
 /*-----------------whyDetroit page-----------------*/
 
@@ -919,22 +990,29 @@ tr.pager td {
     background-image: url(Images/opportunity_detroit.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 100px;
     margin: 0;
 }
 
 .live {
-    background-image: url(Images/live.png);
+    background-image: url(Images/Backgrounds/live-home.png);
     background-repeat: no-repeat;
-    background-size: 40%;
+    background-size: 28%;
     background-position: right;
+    height: 220px;
 }
 
 .work {
+    background-image: url(Images/Backgrounds/work-home.png);
+    background-repeat: no-repeat;
+    background-size: 28%;
+    background-position: right;
+    height: 220px;
+}
+/*.work {
     position: relative;
     background: rgba(0,0,0,0.6);
     background-size: 40%;
-}
+}*/
 
 .workBg {
     position:absolute;
@@ -947,10 +1025,11 @@ tr.pager td {
 }
 
 .play {
-    background-image: url(Images/play.png);
+    background-image: url(Images/Backgrounds/play-home.png);
     background-repeat: no-repeat;
-    background-size: 40%;
+    background-size: 28%;
     background-position: right;
+    height: 220px;
 }
 
 #roleRow {
@@ -1106,7 +1185,7 @@ img.mentor:hover {
     clear: both;
 padding: 20px;
 overflow: visible;
-color: #fff;
+color: White;
 }
 
 
@@ -1131,3 +1210,4 @@ color: #fff;
     padding: 20px;
     color: rgba(255,255,255,0.8);
 }
+
